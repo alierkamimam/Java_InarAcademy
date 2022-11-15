@@ -9,12 +9,12 @@ public class RectangleFromSimpleGeometricObject extends SimpleGeometricObject {
 
     }
 
-    RectangleFromSimpleGeometricObject(double width, double height) {
+    public RectangleFromSimpleGeometricObject(double width, double height) {
         this.width = width;
         this.height = height;
     }
 
-    RectangleFromSimpleGeometricObject(double width, double height, String color, boolean filled) {
+    public RectangleFromSimpleGeometricObject(double width, double height, String color, boolean filled) {
         super(color, filled);
         this.width = width;
         this.height = height;

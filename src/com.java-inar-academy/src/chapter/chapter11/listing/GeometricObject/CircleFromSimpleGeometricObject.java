@@ -4,12 +4,12 @@ public class CircleFromSimpleGeometricObject extends SimpleGeometricObject {
 
     private double radius;
 
-    CircleFromSimpleGeometricObject(double radius) {
+    public CircleFromSimpleGeometricObject(double radius) {
         super();
         this.radius = radius;
     }
 
-    CircleFromSimpleGeometricObject(double radius, String color, boolean filled) {
+    public CircleFromSimpleGeometricObject(double radius, String color, boolean filled) {
         super(color, filled);
         this.radius = radius;
 
