@@ -14,27 +14,33 @@ public class test {
         System.out.println(account);
         ArrayList<Transaction> transactions = account.getTransactions();
         int x;
+
       while (true){
             System.out.println("1:Deposit\n2:Withdraw\n3:Bank Statement");
              x = input.nextInt();
              if (x==3){
                  System.out.println(transactions+"\nBalance: "+ account.getBalance());
-
                  break;
              }
             if (x != 1 && x != 2) {
                 System.out.println("Please choose 1 , 2  ");
                 return;
             }
+
             System.out.print("Enter an amount:");
             double amount = input.nextDouble();
             if (x==1){
                 account.deposit(amount);
+                System.out.println(account.getTransactions());
+                System.out.println("*********************");
             }else {
                 account.withDraw(amount);
+                System.out.println(account.getTransactions());
+                System.out.println("*********************");
             }
 
         }
+
 
 
 

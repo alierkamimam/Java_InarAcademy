@@ -31,8 +31,7 @@ public class Transaction {
                 "\nTransaction type: " + (this.type == 'W' ? "Withdraw" : "Deposit") +
                 "\nAmount: " + this.amount +
                 "\nBlance: " + this.balance +
-                "\nDescription: " + this.description +
-                "\n*****************************\n";
+                "\nDescription: " + this.description ;
 
 
 
