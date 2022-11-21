@@ -1,4 +1,4 @@
-package chapter.chapter12.checklist;
+package chapter.chapter12.checkpoint;
 
 public class cp6b {
     public static void main(String[] args) {

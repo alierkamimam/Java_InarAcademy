@@ -1,4 +1,4 @@
-package chapter.chapter12.checklist;
+package chapter.chapter12.checkpoint;
 
 public class cp16 {
     public static void main(String[] args) {
@@ -8,13 +8,16 @@ public class cp16 {
         }
         catch (RuntimeException ex) {
             System.out.println("RuntimeException in main");
+            System.out.println(ex.getStackTrace());
         }
         catch (Exception ex) {
             System.out.println("Exception in main");
         }
     }
     static void method() throws Exception {
-        try {
+        String s = "abc";
+        System.out.println(s.charAt(3));
+      /*  try {
             String s = "abc";
             System.out.println(s.charAt(3));
         }
@@ -23,6 +26,6 @@ public class cp16 {
         }
         catch (Exception ex) {
             System.out.println("Exception in method()");
-        }
+        }*/
     }
 }
