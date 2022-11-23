@@ -2,7 +2,7 @@ package chapter.chapter12.homework;
 
 import java.util.Scanner;
 
-public class OutOfMemory {
+public class exercises10 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int[] array={1,2,3,4,5,6,67};
