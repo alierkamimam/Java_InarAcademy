@@ -10,12 +10,12 @@ public class Loan {
     private Date loanDate;
 
 
-    Loan() {
+    public Loan() {
         this(2.5, 1, 1000);
 
     }
 
-    Loan(double annualInterstRate, int numberOfYears, double loanAmount) {
+    public Loan(double annualInterstRate, int numberOfYears, double loanAmount) {
         this.annualInterestRate = annualInterstRate;
         this.numberOfYears = numberOfYears;
         this.LoanAmount = loanAmount;

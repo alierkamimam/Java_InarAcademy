@@ -1,4 +1,4 @@
-package chapter.chapter12.homework;
+package chapter.chapter12.homework.exercises02;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

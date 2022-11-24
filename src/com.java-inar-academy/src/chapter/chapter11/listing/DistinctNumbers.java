@@ -9,11 +9,12 @@ public class DistinctNumbers {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter integers (input ends with 0):");
-        int value;
+      Integer value;
         do {
             value = input.nextInt();
             if ((!list.contains(value) && value != 0))
                 list.add(value);
+            else System.out.println("please don't begin  0 ");
         } while (value != 0);
 
 
@@ -25,6 +26,7 @@ public class DistinctNumbers {
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i)+" ");
         }
+
 
 
     }

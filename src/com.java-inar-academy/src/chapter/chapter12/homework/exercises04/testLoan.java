@@ -1,4 +1,4 @@
-package chapter.chapter12.homework.exercises_04;
+package chapter.chapter12.homework.exercises04;
 
 public class testLoan {
     public static void main(String[] args) {

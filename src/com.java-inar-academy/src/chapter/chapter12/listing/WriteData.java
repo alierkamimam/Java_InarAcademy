@@ -10,12 +10,12 @@ public class WriteData {
         }
 
         try (
-                PrintWriter output = new PrintWriter(file);
+                PrintWriter scores = new PrintWriter(file);
         ) {
-            output.print("John T Smith ");
-            output.println(90);
-            output.print("Eric K Jones ");
-            output.println(85);
+            scores.print("John T Smith ");
+            scores.println(90);
+            scores.print("Eric K Jones ");
+            scores.println(85);
         }
 
 

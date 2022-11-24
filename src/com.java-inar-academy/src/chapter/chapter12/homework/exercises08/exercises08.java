@@ -18,8 +18,6 @@ public class exercises08 {
         }
 
     }
-
-
     public static void hexToDecimal(String hex) throws HexFormatException {
         int decimal = 0;
         int pow = -1;

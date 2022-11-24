@@ -1,4 +1,4 @@
-package chapter.chapter12.homework;
+package chapter.chapter12.homework.exercises01;
 
 public class exercises01 {
     public static void main(String[] args) {

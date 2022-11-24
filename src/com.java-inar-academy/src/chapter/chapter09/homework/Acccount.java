@@ -9,12 +9,12 @@ public class Acccount {
 
     private Date dateCreated = new Date();
 
-    Acccount() {
+    public Acccount() {
         this(0, 0, 0);
 
     }
 
-    Acccount(int id, double balance, double annualInterestRate) {
+    public Acccount(int id, double balance, double annualInterestRate) {
         this.id = id;
         this.balance = balance;
         this.annualInterestRate = annualInterestRate;
@@ -59,11 +59,13 @@ public class Acccount {
 
 
     }
-    public double withDraw(double amount){
-        return balance-=amount;
+
+    public void withDraw(double amount) {
+        balance -= amount;
     }
-    public double deposit(double amount){
-        return balance+=amount;
+
+    public void deposit(double amount) {
+        balance += amount;
     }
 
 }

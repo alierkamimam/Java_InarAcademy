@@ -1,7 +1,11 @@
 package chapter.chapter11.checkpoint;
 
 public class Circle {
-    private double radius;
+    public double radius;
+
+    public Circle(){
+
+    }
 
          public Circle(double radius) {
          this.radius = radius;
@@ -30,5 +34,12 @@ public class Circle {
              public double getArea() {
                  return super.getArea() * length;
 
+             }
+             @Override
+             public boolean equals(Object o) {
+                 if (o instanceof Circle)
+                     return radius == ((Circle)o).radius;
+                 else
+                     return this == o;
              }
          }

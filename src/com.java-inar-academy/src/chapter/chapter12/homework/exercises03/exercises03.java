@@ -1,4 +1,4 @@
-package chapter.chapter12.homework;
+package chapter.chapter12.homework.exercises03;
 
 import java.util.ArrayList;
 import java.util.Scanner;

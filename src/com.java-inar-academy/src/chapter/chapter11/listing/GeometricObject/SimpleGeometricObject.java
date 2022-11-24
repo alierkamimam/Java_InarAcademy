@@ -2,9 +2,9 @@ package chapter.chapter11.listing.GeometricObject;
 
 
 public class SimpleGeometricObject {
-    private String color;
-    private boolean filled;
-    private java.util.Date dateCreated;
+    protected String color;
+    protected boolean filled;
+    protected java.util.Date dateCreated;
 
     public SimpleGeometricObject() {
         this( "White",false);

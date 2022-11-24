@@ -6,7 +6,7 @@ public class Test {
         course.addStudent("Erkam");
         course.addStudent("Mustafa");
         course.addStudent("Eren");
-        course.dropStudent("Mustafa");
+        course.dropStudent("Erkam");
         System.out.println(course.ToString());
 
     }

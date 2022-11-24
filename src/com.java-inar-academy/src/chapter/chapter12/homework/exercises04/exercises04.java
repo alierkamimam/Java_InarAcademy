@@ -1,4 +1,4 @@
-package chapter.chapter12.homework;
+package chapter.chapter12.homework.exercises04;
 
 import chapter.chapter10.listing.Loan;
 

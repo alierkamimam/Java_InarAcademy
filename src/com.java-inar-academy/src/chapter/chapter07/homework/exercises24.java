@@ -2,63 +2,56 @@ package chapter.chapter07.homework;
 
 public class exercises24 {
     public static void main(String[] args) {
-        /*int[] deck = new int[52];
-        initiliaze(deck);
-        shuffle(deck);
-
         int[] pick = new int[4];
-        int numberOfPick = pickCards(deck, pick);
-
-        display(deck);
-
-        System.out.println("Number of picks:" + numberOfPick);
+        int[] cards=new int[4];
 
 
-    }
-
-    public static void initiliaze(int[] deck) {
-        for (int i = 0; i < deck.length; i++) {
-            deck[i] = i;
-        }
-    }
-
-    public static void shuffle(int[] deck) {
-        for (int i = 0; i < deck.length; i++) {
-            int index = (int) (Math.random() * deck.length);
+        int total = 0;
+        int count = 0;
+        while (count < 4) {
+            int x = (int) (1 + Math.random() * 52);
+            int card = (x % 4) + 1;
+            int num = x / 4;
+            if (isvalid(card, pick)) {
+                cards[count]=num;
+                count++;
 
 
-            int temp = deck[i];
-            deck[i] = deck[index];
-            deck[index] = temp;
-
-        }
-
-
-    }
-    public static int pickCards(int[] deck,int[] pick){
-        int countpick=0;
-
-        while (!hasOneOfEachSuit(pick)){
-            countpick++;
-            for (int i=0;i<4;i++){
-                pick[i]=(int) (Math.random()*52);
+            }
+            total++;
+            if (count==4){
+                break;
             }
         }
+        print(pick,cards);
+        System.out.println("Total count: "+total);
+
 
     }
 
-    private static boolean hasOneOfEachSuit(int[] pick) {
-        for (int i = 0; i < pick.length - 1; i++) {
-            for (int j = i + 1; j < pick.length; j++) {
 
-                int suit1 = pick[i] / 13;
-                int suit2 =pick[j] / 13;
-
-                if (suit1 == suit2) {
-                    return false;
+    public static boolean isvalid(int card, int[] pick) {
+        for (int row = 0; row < pick.length;row++) {
+            if (pick[row]==card){
+                break;
+            }
+            if (pick[row] != card){
+                if (pick[row]==0){
+                    pick[row]=card;
+                    return true;
                 }
             }
-}
-*/
+
+        }
+       return false;
+    }
+    public static void print(int[] pick,int[] cards){
+        String[] cardName = {"Clubs", "Spades", "Hearts", "Diamonds"};
+        String[] number = {"ACE", "2", "3", "4", "5", "6", "7", "8", "9", "10", "jACK", "QUEEN", "KING"};
+        for (int i = 0; i < pick.length ; i++) {
+
+            System.out.println(number[cards[i]]+" of "+cardName[pick[i]-1]);
+        }
+
     }
 }

@@ -13,11 +13,8 @@ public class PrimeNumber {
         while (n < 120) {
             if (isPrime(n)) {
                 stackOfInteger.push(n);
-
             }
             n++;
-
-
         }
         display(stackOfInteger);
 

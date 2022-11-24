@@ -1,4 +1,4 @@
-package chapter.chapter12.homework;
+package chapter.chapter12.homework.exercises10;
 
 import java.util.Scanner;
 

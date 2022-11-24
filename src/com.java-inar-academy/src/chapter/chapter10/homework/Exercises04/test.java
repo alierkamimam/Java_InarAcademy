@@ -6,5 +6,6 @@ public class test {
         Mypoint mypoint1=new Mypoint(1,1);
         System.out.println("Distance between ("+mypoint.getX()+","+mypoint.getY()+") to ("+mypoint1.getX()+","+mypoint1.getY()+")");
         System.out.println( mypoint.distance(mypoint1));
+
     }
 }

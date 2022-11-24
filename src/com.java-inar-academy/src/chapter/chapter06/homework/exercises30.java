@@ -15,7 +15,7 @@ public class exercises30 {
 
             } else if (lose(number1, number2)) {
 
-                System.out.println("Yo lost");
+                System.out.println("You lost");
                 break;
 
             } else
@@ -31,12 +31,12 @@ public class exercises30 {
     }
 
     public static boolean lose(int number1, int number2) {
-        return (number2 + number1 == 2 &&
-                number1 + number2 == 3 &&
+        return (number2 + number1 == 2 ||
+                number1 + number2 == 3 ||
                 number1 + number2 == 12);
 
-    }
 
+    }
 
 }
 

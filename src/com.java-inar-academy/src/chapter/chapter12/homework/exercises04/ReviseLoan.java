@@ -1,4 +1,4 @@
-package chapter.chapter12.homework.exercises_04;
+package chapter.chapter12.homework.exercises04;
 
 import java.util.Date;
 

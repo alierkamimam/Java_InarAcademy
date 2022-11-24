@@ -28,7 +28,7 @@ public class StackOfInteger {
     }
 
     public int peek() {
-        return elements[size-5];
+        return elements[size-1];
     }
 
     public boolean empty() {

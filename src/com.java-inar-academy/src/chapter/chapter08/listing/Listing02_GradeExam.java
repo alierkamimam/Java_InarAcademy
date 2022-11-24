@@ -16,7 +16,7 @@ public class Listing02_GradeExam {
         for (int row = 0; row < answer.length; row++) {
             int correctCount = 0;
             for (int column = 0; column < answer[row].length; column++) {
-                if (answer[row][column] == key[row])
+                if (answer[row][column] == key[column])
                     correctCount++;
             }
             System.out.println("Student " + row + "'s correct count is " + correctCount);

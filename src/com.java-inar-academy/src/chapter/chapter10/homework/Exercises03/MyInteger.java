@@ -18,7 +18,7 @@ public class MyInteger {
     }
 
     public boolean isEven() {
-        return (this.value / 2) == 0;
+        return (this.value % 2) == 0;
     }
 
     public boolean isOdd() {
@@ -36,7 +36,7 @@ public class MyInteger {
 
 
     public static boolean isEven(int value) {
-        return (value / 2) == 0;
+        return (value % 2) == 0;
     }
 
     public static boolean isOdd(int value) {

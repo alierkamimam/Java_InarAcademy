@@ -20,7 +20,6 @@ public class exercises03 {
     }
 
     public static int reverse(int number) {
-        int orginalnumber = number;
         int remainder;
         int reverse = 0;
         while (number != 0) {

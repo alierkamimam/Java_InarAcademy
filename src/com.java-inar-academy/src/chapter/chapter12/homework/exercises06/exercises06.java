@@ -1,4 +1,4 @@
-package chapter.chapter12.homework;
+package chapter.chapter12.homework.exercises06;
 
 import chapter.chapter11.homework.ex02.Person;
 
