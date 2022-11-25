@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class exercises17 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-        File file = new File("scores.txt");
+        File file = new File("Hangman.txt");
         ArrayList<String> list = new ArrayList<>();
         Scanner string = new Scanner(file);
         while (string.hasNext()) {
