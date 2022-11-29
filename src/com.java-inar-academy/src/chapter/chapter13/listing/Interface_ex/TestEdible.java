@@ -1,6 +1,4 @@
-package chapter.chapter13.lisitng.Interface_ex;
-
-import chapter.chapter13.lisitng.Interface_ex.Edible;
+package chapter.chapter13.listing.Interface_ex;
 
 public class TestEdible {
     public static void main(String[] args) {

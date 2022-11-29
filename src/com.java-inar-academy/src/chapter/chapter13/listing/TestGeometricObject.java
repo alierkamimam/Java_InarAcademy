@@ -1,4 +1,4 @@
-package chapter.chapter13.lisitng;
+package chapter.chapter13.listing;
 
 public class TestGeometricObject {
     public static void main(String[] args) {

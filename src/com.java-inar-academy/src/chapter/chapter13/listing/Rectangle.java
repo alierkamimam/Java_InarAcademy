@@ -1,4 +1,4 @@
-package chapter.chapter13.lisitng;
+package chapter.chapter13.listing;
 
 public class Rectangle extends GeometricObjects {
     private double width;
@@ -48,7 +48,7 @@ public class Rectangle extends GeometricObjects {
     }
 
     public String toString() {
-        return super.toString() + "\n width: " + this.width + "\nheight: " + this.height;
+        return  "\n width: " + this.width + " height: " + this.height;
 
     }
 }
