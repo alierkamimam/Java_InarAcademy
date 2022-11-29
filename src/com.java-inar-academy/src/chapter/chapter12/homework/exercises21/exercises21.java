@@ -10,7 +10,6 @@ public class exercises21 {
         ArrayList<String> list = new ArrayList<>();
         File file = new File("C:\\Users\\Ali Erkam İMAM\\Desktop\\SortedString.txt");
 
-
         try {
             Scanner input = new Scanner(file);
             while (input.hasNext()) {

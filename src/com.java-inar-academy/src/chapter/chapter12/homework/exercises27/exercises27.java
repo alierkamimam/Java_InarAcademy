@@ -48,12 +48,5 @@ public class exercises27 {
         return countLetter;
     }
 
-    private static String getFileNameFromUser() {
-        Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter the file's path and name: ");
-        String s = input.nextLine();
-
-        return s;
-    }
 }
