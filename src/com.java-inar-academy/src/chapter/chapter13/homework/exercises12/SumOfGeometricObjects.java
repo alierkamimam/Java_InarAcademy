@@ -1,6 +1,7 @@
 package chapter.chapter13.homework.exercises12;
 
 import chapter.chapter13.homework.exercises01.Triangle;
+import chapter.chapter13.homework.exercises09.Circle;
 import chapter.chapter13.homework.exercises10.GeometricObjects;
 import chapter.chapter13.homework.exercises10.Rectangle;
 import chapter.chapter13.homework.exercises11.Octagon;
