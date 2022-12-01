@@ -6,6 +6,7 @@ public class test {
         course.addStudent("Erkam");
         course.addStudent("Erdem");
         course.addStudent("Tahir");
+        course.addStudent("Salim");
 
         Course course1=(Course) course.clone();
 
