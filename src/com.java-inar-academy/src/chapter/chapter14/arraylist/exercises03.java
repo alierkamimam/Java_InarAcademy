@@ -1,4 +1,4 @@
-package chapter.chapter14.homework;
+package chapter.chapter14.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
